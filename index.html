@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JugEd's infocard</title>
+</head>
+<body>
+    <header class="head">
+        <div class="head_container">
+            <div class="head_body">
+                <h1 class="head_title">JugEd's infocard</h1>
+                <div class="head_burg"><span></span></div>
+                <nav class="head_menu">
+                    <ul class="head_list">
+                        <li><a class="head_link" href="#service">Услуги</a></li>
+                        <li><a class="head_link" href="#project">Проекты</a></li>
+                        <li><a class="head_link" href="#about">Обо мне</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="welcome">
+            <div><p>Автор тових идей</p></div>
+            <div><p>Разработка веб сайтов, приложений и скриптов под разные задачи</p></div>
+        </div>
+
+        <h2 id="service">Услуги</h2>
+        <div class="service">
+            <div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2klEQVR4nO2dT04VQRDGP4kCXkHhBP65B3t05QlAPIrKVYx4AxQXgqJuZWOMK33I25Iyk/TiLZjpN9M9zFfF90sqIY+eSVX9umfSmZd5gBBCCCGE8M0agD0ARwDmAIw85inX5wBWEYz7AD4TNNkGxkmqIczK8CzDUhxHWSkvCJpplWIXAfhI0EirFB8QgAuCRlqlaGpxjwUL90zdQJMQCaFm6hltWiESQs3UM9q0QiSEmqlntGmFdAvxhjnPP1xB5jz/cAWZ8/zDFWTO8w9XkDnPP1xB5jz/cAWZ8/zDFWTO8w9XkDnPP1xB5jz/cAWZ8/xHL+g2gFu4PiQkwycAhwBWOsaspG+INONKkZAMX1OTtjvGbKcxX1COhGR4lpr0DcA+gO/pe7jz9Pd++p+lsaVISIa7AP4t8YzjPI0tRUI6aBp80OOBUzN2HWVISAevBzz9e4kyJKSFRwAuBwi5TMcORUIA3Llir/FqgIy2VXLV+SWkhacA/qYb95OFz08LhJwucX4JaeH3QiN/LXw+KxAyW+L8EjLRNdt6nv/G30NMQsal1oy0wqidj1skhAwJIUNCyJAQMiSEDAkhQ0KcCzlbGPtjhH1I2/lr5U9P34K2APxMsTWCkLbz18qfnloFzQpk/CHIn4ZaBb0tEPKGIH8aahX0eOCb6Jpj9MRwBCENDwcIeYAytEIKG1S7gRKSQUIKue4Za1ohEuKK2jP2LLPT7rsTz6F7SIbcTrvvTjyHhJAhIWRICBkSQoaEkCEhZEgIGRJChoSQISFkSAgZEkKGhJAhIWSEF+I93DN1A01CJISaqWe0aYVICDVTz2jTChlHyMHAHwje6PmOrVy4p1YjNgpy2JQQCQm/Qt6lmd6XzXSsLlkBf5z4HAE4ImikVYr3CMAeQSOtUuwgAGsATgiaaYXRvOJ8FUFo9g/HzmXcQzCa2bWbrsMebvQXKdedSCtDCCGEEAI3kv9ceWJvo/DzZgAAAABJRU5ErkJggg==" alt="android">
+                <h3>Приложение</h3>
+                <p class="description">Создание приложений под Windows и Android. Менеджеры, трекеры, обучающие приложения, приложения для взаимодействия с API, интерактивные приложения.</p>
+                <p class="cost">От 5 000 руб. </p>
+            </div>
+            <div>
+                <img src="data:image/png;base64,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" alt="internet-browser--v1">
+                <h3>Сайт</h3>
+                <p class="description">Разработка сайтов и веб-приложений. Сайты с CMS, блоги, интернет-магазины (без онлайн оплаты), информационные, визитки.</p>
+                <p class="cost">От 1 000 руб.</p>
+            </div>
+            <div>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACzklEQVR4nO3a0WncQBAG4N8NmJSgAgJO0kaSh7zbsTpKSAPqwW4gkLQR6824BGMbJggucBE2+G5H+8/O/gP7Yu4s3f9JO9JKgEqlUqlU9csaHQ8AviBhsYM1oeQBsYxnCjtQE0oOkIesZ4o1Oj4CuM+IYo0OZEVpGSQlSusg6VAygKRCyQKSBiUTSAqUbCDNo2QEaRolK0izKJlBmkTJDtIcSg8gTaH0AtIMSk8gTaD0BhIepUeQ0Ci9goRF6RkkJErvIOFQ2MFaABDswn/uxYnqxQ7Wgg+BgI8gEPCDFwj4YQsE/IAFAn6oAgE/SIEECM8Ewg/MBMIPyQTCD8YEwg/DAgwtnYCPIBDwgxcIXg5hXs0Tg0C4R+W0AhkFwgUZVyALkKYsYgjDCmSZwgRCCmEO1D/SXPbeAfgA4LpC/1i2cQbgViAvh3S+F+hnADcb9I8/AD7tfe5SIM8H9QvAySrUHxv0j2+rzy3b/Kkp6/+QHnfTx3693f3du388FW6rix5SetROB/aP0rMxNcjSyN+s/vdlhfuPi9V3Tp0bfPXaopEfG8wx9x8eB0I6EI+pYy64//i+YYOvXqU77NVcp4L1q2Uf3jnsQwoQr8vPsXD96vdGDb56leys5/w9OKxfLdv2bvBdgsxO61fdg3hNWZPD8w9NWY5NfSzsH2rqzkfnUNg/dNnreMc8F/YP3Rg6BzMV9g8tnThPHWNB/9Di4gYNfjiyf2j5fYMGPxf0Dz2gOiCsr698hFvSP/QI98Arn/cArjbsH//G1W5bd0d89zWjehlxDIHev+oeZA72/lX3IFOg93cFgljv7woEbfSPZVQv9g+24EMg4CMIBPzgBQJ+2AIBP2CBgB+qQMAPUiABwjOB8AMzgfBDMoHwgzGB8MOwAENLJ+AjCAT84AUCftgCAT9ggYAfqkDAD1IgAcIzgfADs2wgKpVKpULX9ReZUnEbhECFNAAAAABJRU5ErkJggg==" alt="code-file">
+                <h3>Скрипт</h3>
+                <p class="description">Скрипты для решения и автоматизации различных задач, а так же написание кода по учебным заданиям.</p>
+                <p class="cost">От 500 руб.</p>
+            </div>
+        </div>
+
+        <h2 id="project">Проекты</h2>
+        <div class="blk_prj">
+            <div class="blk shading_right">
+                <div class="prj_img">
+                    <img src="image/1.png" alt="Photo">
+                </div>
+                <div class="prj_card">
+                    <h5>Ваш замок</h5>
+                    <p>Сайт магазина замков. Большое разнообразие замков, ключей, а так же брелоков. Есть услуги ремонта, замены замков и создание дубликатов ключей. Приятным бонусом служит услуга по созданию визиток и кулонов при помощи лазерной гравировки.</p>
+                    <a href="https://vashzamokuglich.ru" target="_blank">Перейти на проект</a>
+                </div>
+            </div>
+            <div class="blk shading_left">
+                <div class="prj_img">
+                    <img src="image/2.png" alt="Photo">
+                </div>
+                <div class="prj_card">
+                    <h5>Space model</h5>
+                    <p>Симуляция поведения тел в космосе. Разработана на python с использованием pygame и pymunk, а для интерфейса был использован tkinter. Реалистичная визуализация невесомости, силы притяжения и воздействия космических тел друг на друга.</p>
+                    <a href="https://github.com/jug-ed/Space-model" target="_blank">Перейти на проект</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="about">Обо мне</h2>
+        <div class="about">
+            <p>Привет, с вами JugEd</p>
+            <p>Работаю более 2 лет в IT, а начал свой путь еще 7 лет назад</p>
+            <p>Ценю минимализм и удобство</p>
+            <p>Создам удобное приложение или сайт под твои задачи</p>
+            <p>А если нужна помощь с кодом для ДЗ, то помогу быстро и недорого</p>
+            <p></p>
+        </div>
+    </div>
+
+    <div id="popup">
+        <p id="popup_text"></p>
+    </div>
+
+    <br>
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
