@@ -103,6 +103,9 @@ p {
     text-decoration: none;
     color: black;
 }
+.head_title img {
+    height: 100px;
+}
 
 .head_list {
     display: flex;
