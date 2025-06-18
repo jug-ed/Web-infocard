@@ -1,8 +1,14 @@
 var usrLng = navigator.languages[0];
+const allLng = ['en-US', 'ru-RU'];
 
 $(document).ready(function() {
-	$('.head_burg,.head_link').click(function(event) {
+	$('.head_burg,.head_link').click(function() {
 		$('.head_burg,.head_menu').toggleClass('active');
+	});
+
+	$('#lang-select').change(function() {
+		usrLng= $(this).val();
+		lngTxtRange(usrLng);
 	});
 
 	setTimeout(popupTimeShow, 10000);
@@ -14,10 +20,14 @@ function lngTxtRange(lang) {
 	for (let key in lngArr) {
 		let el = document.getElementById("lng-"+key);
 		if (el) {
-			el.innerHTML = lngArr[key][lang];
+			if (allLng.includes(usrLng)) { el.innerHTML = lngArr[key][lang]; }
+			else { el.innerHTML = lngArr[key]["en-US"]; }
 		}
 	}
 }
+
+if (allLng.includes(usrLng)) { $('#lang-select').val(usrLng); }
+else { $('#lang-select').val("en-US"); }
 lngTxtRange(usrLng);
 
 
